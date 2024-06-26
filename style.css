@@ -1,0 +1,61 @@
+body {
+    font-family: "Playwrite NG Modern", cursive;
+    text-align: center;
+    background-color: #FFF5E1;
+    color: #FF6969;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+#heading {
+    margin: 0;
+    font-size: 2em;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sps {
+    margin: 0 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sps:hover{
+    opacity: 0.8;
+    background-color: black;
+    transition: ease-in-out 2s;
+}
+
+.sps img {
+    width: 200px ;
+    height:200px;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.scores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.winnershow{
+    display: inline;
+    color: brown;
+    background-color: #0C1844;
+    padding: 10px;
+    transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 2rem;
+}
